@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b122bb3-95a0-4023-a26f-e190aa65d73d" name="Default Changelist" comment="" />
+    <list default="true" id="4b122bb3-95a0-4023-a26f-e190aa65d73d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Procfile" value="21" />
           <entry key="html" value="116" />
           <entry key="py" value="3911" />
           <entry key="sql" value="8" />
@@ -50,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="116" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="PLAIN_TEXT" value="29" />
           <entry key="Python" value="2852" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="1059" />
@@ -58,6 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Procfile" value="1" />
           <entry key="css" value="1" />
           <entry key="html" value="4" />
           <entry key="js" value="2" />
@@ -72,6 +76,7 @@
           <entry key="Database Element" value="5" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Python" value="11" />
           <entry key="Scratch" value="4" />
         </counts>
@@ -83,7 +88,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1530">
@@ -94,6 +99,15 @@
                 <marker date="1541945989012" expanded="true" signature="682:1166" ph="..." />
                 <marker date="1541945989012" expanded="true" signature="1186:1774" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Procfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="21" selection-start-column="21" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -136,6 +150,9 @@
       <find>test</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -149,6 +166,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.py" />
         <option value="$PROJECT_DIR$/tabledef.py" />
         <option value="$PROJECT_DIR$/app.py" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -163,6 +181,7 @@
     <option name="width" value="980" />
     <option name="height" value="1031" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -375,6 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49867374" visible="true" weight="0.17651822" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,6 +546,13 @@
             <marker date="1541945989012" expanded="true" signature="682:1166" ph="..." />
             <marker date="1541945989012" expanded="true" signature="1186:1774" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
