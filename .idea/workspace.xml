@@ -45,7 +45,7 @@
         <counts>
           <entry key="Procfile" value="21" />
           <entry key="html" value="116" />
-          <entry key="py" value="3911" />
+          <entry key="py" value="3930" />
           <entry key="sql" value="8" />
           <entry key="txt" value="8" />
         </counts>
@@ -54,7 +54,7 @@
         <counts>
           <entry key="HTML" value="116" />
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="2852" />
+          <entry key="Python" value="2871" />
           <entry key="SQL" value="8" />
           <entry key="Scratch" value="1059" />
         </counts>
@@ -67,6 +67,7 @@
           <entry key="js" value="2" />
           <entry key="py" value="13" />
           <entry key="sql" value="2" />
+          <entry key="txt" value="1" />
           <entry key="users" value="5" />
         </counts>
       </usages-collector>
@@ -76,7 +77,7 @@
           <entry key="Database Element" value="5" />
           <entry key="HTML" value="4" />
           <entry key="JavaScript" value="2" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="Python" value="11" />
           <entry key="Scratch" value="4" />
         </counts>
@@ -91,12 +92,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
+            <state relative-caret-position="221">
+              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
+                <element signature="e#387#410#0" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/requirements.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-476" />
           </provider>
         </entry>
       </file>
@@ -384,7 +393,7 @@
       <window_info id="Favorites" order="2" sideWeight="0.50132626" side_tool="true" weight="0.25020242" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34875444" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34875444" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -479,16 +488,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.js" />
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="113" column="34" selection-start-line="113" selection-start-column="34" selection-end-line="113" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -502,6 +501,22 @@
           <caret selection-end-line="105" />
           <folding>
             <element signature="e#31#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-476" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#387#410#0" />
           </folding>
         </state>
       </provider>

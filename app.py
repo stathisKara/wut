@@ -11,72 +11,73 @@ api = Api(app)
 # app.secret_key = os.urandom(12)
 
 
-users = [{"name": "Nicholas", "age": 42, "occupation": "Network Engineer"}]
+# users = [{"name": "Nicholas", "age": 42, "occupation": "Network Engineer"}]
 
 
-class User(Resource):
-
-    def get(self, name):
-        for user in users:
-            if name == user["username"]:
-                return user, 200
-        return "user not found 404"
-
-    def post(self, name):
-        parser = reqparse.RequestParser()
-        parser.add_argument("email")
-        parser.add_argument("username")
-        args = parser.parse_args()
-
-        for user in users:
-            if name == user["username"]:
-                return "user with name {} already exists".format(name), 400
-
-        user = {
-            "username": name,
-            "email": args["email"],
-            "name": args["name"]
-        }
-        users.append(user)
-        return user, 201
-
-    def put(self, name):
-        parser = reqparse.RequestParser()
-        parser.add_argument("email")
-        parser.add_argument("username")
-        args = parser.parse_args()
-
-        for user in users:
-            if name == user["username"]:
-                if name == user["username"]:
-                    user["email"] = args["email"]
-                    user["name"] = args["name"]
-                    return user, 200
-
-        user = {
-            "username": name,
-            "email": args["email"],
-            "name": args["name"]
-        }
-        users.append(user)
-        return user, 200
-
-    def delete(self, name):
-        global users
-        users = [user for user in users if user["username"] != name]
-        return "{} is delete.".format(name), 200
-
-
-api.add_resource(User, "/user/<string:name>")
+# class User(Resource):
+#
+#     def get(self, name):
+#         for user in users:
+#             if name == user["username"]:
+#                 return user, 200
+#         return "user not found 404"
+#
+#     def post(self, name):
+#         parser = reqparse.RequestParser()
+#         parser.add_argument("email")
+#         parser.add_argument("username")
+#         args = parser.parse_args()
+#
+#         for user in users:
+#             if name == user["username"]:
+#                 return "user with name {} already exists".format(name), 400
+#
+#         user = {
+#             "username": name,
+#             "email": args["email"],
+#             "name": args["name"]
+#         }
+#         users.append(user)
+#         return user, 201
+#
+#     def put(self, name):
+#         parser = reqparse.RequestParser()
+#         parser.add_argument("email")
+#         parser.add_argument("username")
+#         args = parser.parse_args()
+#
+#         for user in users:
+#             if name == user["username"]:
+#                 if name == user["username"]:
+#                     user["email"] = args["email"]
+#                     user["name"] = args["name"]
+#                     return user, 200
+#
+#         user = {
+#             "username": name,
+#             "email": args["email"],
+#             "name": args["name"]
+#         }
+#         users.append(user)
+#         return user, 200
+#
+#     def delete(self, name):
+#         global users
+#         users = [user for user in users if user["username"] != name]
+#         return "{} is delete.".format(name), 200
 
 
+# api.add_resource(User, "/user/<string:name>")
+
+# s = Session()
+sessionn = {}
 @app.route('/')
 def home(origin=""):
     print(variablaae)
-    if session.get('logged_in') and origin == "logout":
+    if sessionn.get('logged_in') and origin == "logout":
         return "Hello "  + "!  <a href='/logout'>Logout</a>"
     else:
-        return render_template('login.html')
+        return "hi"
 
 
 @app.route('/login', methods=['POST'])
@@ -86,7 +87,7 @@ def do_admin_login():
     # POST_PASSWORD = str(request.form['password'])
     #
     # Session = sessionmaker(bind=engine)
-    # s = Session()
+
     # query2 = s.query(User)
     # s.add(User("lala", "lala", "kaska"))
     # s.commit()
@@ -94,7 +95,7 @@ def do_admin_login():
     # result = query.first()
     result = 0
     if result:
-        session['logged_in'] = True
+        sessionn['logged_in'] = True
     else:
         flash('wrong password!')
     return home("logout")
@@ -105,7 +106,7 @@ def logout():
     # if not session['logged_in']:
     #     return home()
     variablaae = 5
-    session['logged_in'] = False
+    sessionn['logged_in'] = False
     return home("logout")
 
 
